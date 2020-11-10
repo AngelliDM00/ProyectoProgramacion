@@ -5,7 +5,7 @@ public class Registro {
     
     private String nombre, Apellido, email, fechaCita, horaCita;
     private int cedula, numeroCelular;
-    
+    //pongo aca el registro de los doctores y que en clase doctores se ingresen los datos?
     public Registro(){
         nombre = "";
         Apellido = "";
@@ -14,7 +14,6 @@ public class Registro {
         cedula = 0;
         numeroCelular = 0;
         horaCita = "";
-        
     }
 
     public String getNombre() {

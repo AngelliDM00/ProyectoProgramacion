@@ -1,6 +1,6 @@
 
 package proyectoprogra;
-//medicina general, ginecologia, pediatria, cardiologia, cirugia, fisioterapia//
+//medicina general, ginecologia, pediatria, cardiologia, cirugia, fisioterapia...//
 import javax.swing.JOptionPane;
 
 public class RegistroCitas {
@@ -11,7 +11,7 @@ public class RegistroCitas {
         int opcion =0;
         do{
             opcion = Integer.parseInt(JOptionPane.showInputDialog(null,
-                    "1.Pediatria"
+             "1.Pediatria"
             +"\n2. Medicina General"
             +"\n3. Ginecologia"
             +"\n4. Cardiologia"
@@ -98,8 +98,8 @@ public class RegistroCitas {
         public void informaciónCita(){
             JOptionPane.showMessageDialog(null,
                     "Paciente "+paciente.getNombre()+", cedula:" +paciente.getCedula()+", celular: "+paciente.getNumeroCelular()+
-                            ", correo electronico: "+paciente.getEmail()+".\n"+
-                                    "La fecha de su cita es el: "+paciente.getFechaCita()+" a las: "+paciente.getHoraCita());
+                    ", correo electronico: "+paciente.getEmail()+".\n"+
+                    "La fecha de su cita es el: "+paciente.getFechaCita()+" a las: "+paciente.getHoraCita());
             
         }
 }
