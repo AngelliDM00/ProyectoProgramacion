@@ -4,7 +4,7 @@ package proyectoprogra;
 public class Main {
 
     public static void main(String[] args) {
-    Pacientes r=new Pacientes();
+    RegistroCitas r=new RegistroCitas();
     r.citaPaciente();
     r.almacenarInformación1();
     r.almacenarInformación2();

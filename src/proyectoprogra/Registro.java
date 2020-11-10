@@ -1,12 +1,12 @@
 
 package proyectoprogra;
 
-public class Citas {
+public class Registro {
     
     private String nombre, Apellido, email, fechaCita, horaCita;
     private int cedula, numeroCelular;
     
-    public Citas(){
+    public Registro(){
         nombre = "";
         Apellido = "";
         email = "";

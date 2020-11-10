@@ -3,8 +3,8 @@ package proyectoprogra;
 //medicina general, ginecologia, pediatria, cardiologia, cirugia, fisioterapia//
 import javax.swing.JOptionPane;
 
-public class Pacientes {
-    Citas paciente=new Citas();
+public class RegistroCitas {
+    Registro paciente=new Registro();
     
     public void citaPaciente(){
         
@@ -26,8 +26,7 @@ public class Pacientes {
                     almacenarInformación2();break;
                 }
                 case 3: {
-                    almacenarInformación3();break;
-                    
+                    almacenarInformación3();break;  
                 }
                 case 4: {
                     almacenarInformación4();break;
