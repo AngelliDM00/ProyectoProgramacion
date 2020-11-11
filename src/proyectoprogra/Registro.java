@@ -3,7 +3,7 @@ package proyectoprogra;
 
 public class Registro {
     
-    private String nombre, Apellido, email, fechaCita, horaCita;
+    private String nombre, Apellido, email, fechaCita, horaCita, tipoSangre;
     private int cedula, numeroCelular;
     //pongo aca el registro de los doctores y que en clase doctores se ingresen los datos?
     public Registro(){
@@ -14,6 +14,7 @@ public class Registro {
         cedula = 0;
         numeroCelular = 0;
         horaCita = "";
+        tipoSangre= "";
     }
 
     public String getNombre() {
@@ -72,9 +73,13 @@ public class Registro {
         this.horaCita = horaCita;
     }
     
+     public String gettipoSangre() {
+        return horaCita;
+    }
+
+    public void settipoSangre(String horaCita) {
+        this.horaCita = horaCita;
     
-    
-    
-    
+    }
     
 }

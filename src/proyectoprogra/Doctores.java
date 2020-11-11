@@ -1,9 +1,23 @@
 
 package proyectoprogra;
 
+import javax.swing.JOptionPane;
+
 public class Doctores {
+    
+    private String Nombre, Apellido, ID, Especialidad;
+    
     public void registroDoctores(){
-        //hay que registrar a los doctores
+       
+        Nombre= JOptionPane.showInputDialog(null,
+                "Digite su nombre:");
+        Apellido= JOptionPane.showInputDialog(null, 
+                "Digite su apellido:");
+        ID= JOptionPane.showInputDialog(null, 
+                "Digite su ID:");
+        Especialidad= JOptionPane.showInputDialog(null, 
+                "Digite su especialidad:");
         
+        JOptionPane.showMessageDialog(null, "Doctor "+Nombre+" "+Apellido+", "+ID+", especializado en "+Especialidad);
     }
 }

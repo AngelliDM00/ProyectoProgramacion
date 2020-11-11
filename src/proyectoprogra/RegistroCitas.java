@@ -86,6 +86,7 @@ public class RegistroCitas {
         paciente.setEmail(JOptionPane.showInputDialog(null, "digite su correo electronico:"));
         paciente.setFechaCita(JOptionPane.showInputDialog(null,"ingrese fecha para su cita:" ));
         paciente.setHoraCita(JOptionPane.showInputDialog(null, "ingrese la hora para su cita:"));
+        paciente.settipoSangre(JOptionPane.showInputDialog(null, "Digite su tipo de sangre:"));
       }
         public void almacenarInformación6(){
         paciente.setNombre(JOptionPane.showInputDialog(null, "Digite su nombre:"));

@@ -7,16 +7,16 @@ public class Main {
     RegistroCitas r=new RegistroCitas();
     Doctores m=new Doctores();
     
-    r.citaPaciente();
-    r.almacenarInformación1();
-    r.almacenarInformación2();
-    r.almacenarInformación3();
-    r.almacenarInformación4();
-    r.almacenarInformación5();
-    r.almacenarInformación6();
-    r.informaciónCita();
+    //r.citaPaciente();
+    //r.almacenarInformación1();
+   // r.almacenarInformación2();
+    //r.almacenarInformación3();
+    //r.almacenarInformación4();
+    //r.almacenarInformación5();
+   // r.almacenarInformación6();
+    //r.informaciónCita();
     
-    m.registroDoctores();
+    //m.registroDoctores();
     
     
     }
