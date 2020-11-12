@@ -4,7 +4,7 @@ package proyectoprogra;
 import javax.swing.JOptionPane;
 
 public class Doctores {
-    //hola a todos//
+    
     private String Nombre, Apellido, ID, Especialidad;
     
     public void registroDoctores(){
